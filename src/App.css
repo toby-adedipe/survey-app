@@ -26,3 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+body{
+  background-color: #0c70b4;
+  color: #fff;
+  font: normal 400 18px "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card{
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  opacity: 1;
+  color: #000;
+  line-height: 49px;
+}
+
+.feedback-button{
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 2% 0 0;
+  border: none;
+  font: normal normal bold 1.6em/normal "Syncopate", Helvetica, sans-serif;
+  color: #ecf0f1;
+  background: linear-gradient(180deg, #ff8583 0, #ff5350 100%);
+  background-clip: border-box;
+  margin-bottom: 10vh;
+}
